@@ -1,0 +1,10 @@
+C:\Users\bilal\OneDrive\Masaüstü\C#\SesliAsistan\bin\Debug\SesliAsistan.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\C#\SesliAsistan\bin\Debug\SesliAsistan.exe
+C:\Users\bilal\OneDrive\Masaüstü\C#\SesliAsistan\bin\Debug\SesliAsistan.pdb
+C:\Users\bilal\OneDrive\Masaüstü\C#\SesliAsistan\obj\Debug\SesliAsistan.csproj.AssemblyReference.cache
+C:\Users\bilal\OneDrive\Masaüstü\C#\SesliAsistan\obj\Debug\SesliAsistan.Form1.resources
+C:\Users\bilal\OneDrive\Masaüstü\C#\SesliAsistan\obj\Debug\SesliAsistan.Properties.Resources.resources
+C:\Users\bilal\OneDrive\Masaüstü\C#\SesliAsistan\obj\Debug\SesliAsistan.csproj.GenerateResource.cache
+C:\Users\bilal\OneDrive\Masaüstü\C#\SesliAsistan\obj\Debug\SesliAsistan.csproj.CoreCompileInputs.cache
+C:\Users\bilal\OneDrive\Masaüstü\C#\SesliAsistan\obj\Debug\SesliAsistan.exe
+C:\Users\bilal\OneDrive\Masaüstü\C#\SesliAsistan\obj\Debug\SesliAsistan.pdb
