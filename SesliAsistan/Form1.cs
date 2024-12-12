@@ -62,7 +62,33 @@ namespace SesliAsistan
         {
             try
             {
-                switch (e.Result.Text)
+                if (e.Result.Text == "not")
+                {
+                    yanit.SpeakAsync("ı am opening");
+                    System.Diagnostics.Process.Start("\"C:\\Users\\bilal\\AppData\\Local\\Programs\\Notion\\Notion.exe\"");
+                }
+                else if (e.Result.Text == "Alışveriş")
+                {
+                    yanit.SpeakAsync("ı am opening");
+                    System.Diagnostics.Process.Start("\"C:\\Users\\bilal\\OneDrive\\Masaüstü\\New Internet Shortcut.url\"");
+                }
+                else if (e.Result.Text == "kromuaç")
+                {
+                    yanit.SpeakAsync("ı am opening");
+                    System.Diagnostics.Process.Start("\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"");
+                }
+                else if(e.Result.Text == "komutlarıgöster")
+                {
+                    // Komutları Gösterme Bloğu //
+                    yanit.SpeakAsync("ok");
+                    timer1.Start();
+                    listBox1.Visible = true;
+                }
+                else
+                {
+                    MessageBox.Show("Tanımlanmamış bir komut girdiniz.\n Komutları görmek için KOMUTLARI GÖSTER diyebilirsiniz...");
+                }
+                /*switch (e.Result.Text)
                 {
                     case "not":
                         yanit.SpeakAsync("ı am opening");
@@ -85,7 +111,9 @@ namespace SesliAsistan
                     default:
                         MessageBox.Show("Tanımlanmamış bir komut girdiniz.\n Komutları görmek için KOMUTLARI GÖSTER diyebilirsiniz...");
                         break;
+                
                 }
+                */
             }
             catch (Exception ex)
             {
